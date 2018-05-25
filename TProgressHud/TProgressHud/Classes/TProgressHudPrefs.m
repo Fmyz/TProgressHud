@@ -10,4 +10,18 @@
 
 @implementation TProgressHudPrefs
 
++ (instancetype)shareInstance
+{
+    static TProgressHudPrefs *prefs = nil;
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (!prefs) {
+            prefs = [[TProgressHudPrefs alloc] init];
+        }
+    });
+    
+    return prefs;
+}
+
 @end

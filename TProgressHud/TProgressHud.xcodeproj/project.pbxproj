@@ -13,6 +13,8 @@
 		B337521020B79E4B002D4E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B337520F20B79E4B002D4E44 /* Assets.xcassets */; };
 		B337521320B79E4B002D4E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B337521120B79E4B002D4E44 /* LaunchScreen.storyboard */; };
 		B337521620B79E4B002D4E44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B337521520B79E4B002D4E44 /* main.m */; };
+		B337521F20B79E9D002D4E44 /* TProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = B337521E20B79E9D002D4E44 /* TProgressHud.m */; };
+		B337522220B79EB7002D4E44 /* TProgressHudPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = B337522120B79EB7002D4E44 /* TProgressHudPrefs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B337521220B79E4B002D4E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B337521420B79E4B002D4E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B337521520B79E4B002D4E44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B337521D20B79E9D002D4E44 /* TProgressHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProgressHud.h; sourceTree = "<group>"; };
+		B337521E20B79E9D002D4E44 /* TProgressHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TProgressHud.m; sourceTree = "<group>"; };
+		B337522020B79EB7002D4E44 /* TProgressHudPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProgressHudPrefs.h; sourceTree = "<group>"; };
+		B337522120B79EB7002D4E44 /* TProgressHudPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TProgressHudPrefs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		B337520520B79E4A002D4E44 /* TProgressHud */ = {
 			isa = PBXGroup;
 			children = (
+				B337521C20B79E83002D4E44 /* Classes */,
 				B337520620B79E4A002D4E44 /* AppDelegate.h */,
 				B337520720B79E4A002D4E44 /* AppDelegate.m */,
 				B337520920B79E4A002D4E44 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				B337521520B79E4B002D4E44 /* main.m */,
 			);
 			path = TProgressHud;
+			sourceTree = "<group>";
+		};
+		B337521C20B79E83002D4E44 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B337521D20B79E9D002D4E44 /* TProgressHud.h */,
+				B337521E20B79E9D002D4E44 /* TProgressHud.m */,
+				B337522020B79EB7002D4E44 /* TProgressHudPrefs.h */,
+				B337522120B79EB7002D4E44 /* TProgressHudPrefs.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +162,8 @@
 				B337520B20B79E4A002D4E44 /* ViewController.m in Sources */,
 				B337521620B79E4B002D4E44 /* main.m in Sources */,
 				B337520820B79E4A002D4E44 /* AppDelegate.m in Sources */,
+				B337521F20B79E9D002D4E44 /* TProgressHud.m in Sources */,
+				B337522220B79EB7002D4E44 /* TProgressHudPrefs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

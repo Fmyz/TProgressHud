@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface TProgressHudPrefs : NSObject
+
++ (instancetype)shareInstance;
+
+@property (copy, nonatomic) void (^commonBackGroundColor)(UIColor *hudBackGroundColor);
+@property (copy, nonatomic) void (^commonTextColor)(UIColor *textColor);
+@property (copy, nonatomic) void (^commonTextFont)(UIFont *textFont);
 
 @end

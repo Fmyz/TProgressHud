@@ -10,4 +10,6 @@
 
 @interface TProgressHud : UIView
 
+- (void)showInView:(UIView *)view;
+
 @end
